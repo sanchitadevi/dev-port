@@ -1,3 +1,46 @@
+body{
+    font-family: 'Roboto', sans-serif ;
+    margin: 0;
+}
+
 h1{
-    font-weight : 700 px;
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+section{
+    display: flex; 
+}
+.half-width{
+    width: 50% ;
+    padding: 0px 90px;
+}
+.half-width p{
+    font-weight: 300;
+    font-size: 20px;
+}
+.top .half-width img{
+    width: 100%;
+}
+.half-width a{
+    background-image: linear-gradient(rgb(241, 153, 19),rgb(247, 177, 86));
+    padding: 12px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.middle{
+    padding: 70px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle .half-width img{
+    width: 120%;
 }
