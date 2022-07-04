@@ -6,8 +6,8 @@ body{
 h1{
     font-size: 50px;
 }
-h2{
-    font-size: 20px ;
+h3{
+    font-size: 17px ;
 }
 span{
     color: orange;
@@ -47,4 +47,23 @@ span{
 }
 .color{
     color: orange;
+}
+.bottom {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.area h1{
+    font-size: 50px;
+}
+.bottom h2{
+    font-size: 35px;
+}
+.bottom .half-width{
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey ;
+    border-radius: 10px;
+    padding: 40px 20px;
 }
